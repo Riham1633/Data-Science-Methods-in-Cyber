@@ -83,6 +83,7 @@ The notebook performs:
 ## Notes on Reproducibility
 
 The reproduction uses the sampled CICIDS2017 dataset released with the authors' implementation. Therefore, the reported performance should be interpreted as a sample-based reproduction of the proposed methodology rather than a direct numerical replication of the full-dataset results reported in the original paper.
+
 ---
 
 ## Author
