@@ -6,7 +6,7 @@
 
 ## Project Description
 
-This project reproduces and critically evaluates the paper **"Tree-based Intelligent Intrusion Detection System in Internet of Vehicles"**.
+The project also includes a critical evaluation of the original paper, discussing its strengths, limitations, reproducibility, and methodological assumptions.
 
 The objective is to reproduce the proposed intrusion detection framework, analyze its methodology, and compare the reproduced results with those reported in the original paper. The implementation includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, performance evaluation, and error analysis using the CICIDS2017 dataset.
 
@@ -50,12 +50,12 @@ The reproduction was performed using the sampled dataset provided with the autho
 
 ## Repository Contents
 
-* `Tree_based_IDS_Report.pdf` – project report.
-* `Tree_based_IDS_Reproduction.ipynb` – code implementation.
 * `Tree_based_IDS_Report_2.pdf` – Final project report.
   (This version is an updated version of the original report (Tree_based_IDS_Report.pdf), updated based on the given feedback).
 * `Tree_based_IDS_Reproduction_2.ipynb` – Complete code implementation.
   (This version is an updated version of the original notebook (Tree_based_IDS_Reproduction.ipynb), updated based on the given feedback).
+* `CICIDS2017_sample.csv` – Sampled CICIDS2017 dataset used for the reproduction.
+* `requirements.txt` – Python dependencies required to run the notebook.
 * `README.md` – Project description and execution instructions.
 
 ---
@@ -63,8 +63,8 @@ The reproduction was performed using the sampled dataset provided with the autho
 ## Execution Instructions
 
 1. Open the notebook Tree_based_IDS_Reproduction_2.ipynb.
-2. Install the required Python packages (The first cell).
-3. Upload the dataset CICIDS2017_sample.csv in the second cell.
+2. Install the required Python packages: pip install -r requirements.txt
+3. Download the sampled CICIDS2017 dataset from the link above and upload CICIDS2017_sample.csv when prompted by the notebook.
 4. Execute the rest of the notebook.
 
 The notebook performs:
@@ -77,8 +77,12 @@ The notebook performs:
 * Performance Evaluation
 * Error Analysis
 * Comparison with the original paper
-* Duplicates removing evaluation & Comparison with the original paper
+* Duplicate Removal Validation and Comparison with the Original Paper
 
+
+## Notes on Reproducibility
+
+The reproduction uses the sampled CICIDS2017 dataset released with the authors' implementation. Therefore, the reported performance should be interpreted as a sample-based reproduction of the proposed methodology rather than a direct numerical replication of the full-dataset results reported in the original paper.
 ---
 
 ## Author
